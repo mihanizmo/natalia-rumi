@@ -1,4 +1,7 @@
+@import "../packages/bootstrap-4.1.3/scss/bootstrap";
 @import "_variables";
+
+@import "blocks/_header";
 
 html {
     margin: 0;
@@ -10,27 +13,24 @@ html {
     margin: 0;
     align-items: center;
 
-    @include respond-to (small-desktops) {
-        grid-template-rows: 865px 1fr 300px;
-    }
-
-    @include respond-to (tablets) {
-        grid-template-rows: 865px 1fr 300px;
-    }
-
-    @include respond-to (wide-phones) {
-        grid-template-rows: 735px 1fr 300px;
-    }
-
-    @include respond-to (phones) {
-        grid-template-rows: 655px 1fr 300px;
-    }
+    //    @include respond-to (small-desktops) {
+    //        grid-template-rows: 865px 1fr 300px;
+    //    }
+    //
+    //    @include respond-to (tablets) {
+    //        grid-template-rows: 865px 1fr 300px;
+    //    }
+    //
+    //    @include respond-to (wide-phones) {
+    //        grid-template-rows: 735px 1fr 300px;
+    //    }
+    //
+    //    @include respond-to (phones) {
+    //        grid-template-rows: 655px 1fr 300px;
+    //    }
 }
 
-header {
-    min-height: 100%;
-    background: url(../pictures/rainbow.jpg) no-repeat center;
-    background-size: cover;
+.b-header {
 
     nav {
         display: grid;
@@ -65,7 +65,7 @@ header {
 
     .logo {
         justify-self: start;
-        align-self: center; //position: relative;
+        align-self: center;
         grid-column: 2/3;
 
         @include respond-to (lg-desktops) {
@@ -1149,7 +1149,7 @@ footer {
     height: 100%;
     width: 100%;
     background: url(../pictures/footer.png);
-    
+
     @include respond-to (wide-phones) {
         flex-direction: column-reverse;
     }
@@ -1174,17 +1174,15 @@ footer {
         align-items: flex-start;
         margin-left: 40px;
         width: 50%;
-        
+
         @include respond-to (wide-phones) {
             margin-left: 15px;
-            font-size: 0.9rem;
-            //margin-left: 0;
+            font-size: 0.9rem; //margin-left: 0;
         }
 
         @include respond-to (phones) {
             margin-right: 15px;
-            font-size: 0.9rem;
-            //margin-bottom: 0;
+            font-size: 0.9rem; //margin-bottom: 0;
         }
     }
 
@@ -1199,14 +1197,12 @@ footer {
 
         @include respond-to (wide-phones) {
             margin-right: 15px;
-            font-size: 1.2rem;
-            //margin-bottom: 0;
+            font-size: 1.2rem; //margin-bottom: 0;
         }
 
         @include respond-to (phones) {
             margin-right: 15px;
-            font-size: 1rem;
-            //margin-bottom: 0;
+            font-size: 1rem; //margin-bottom: 0;
         }
     }
 
@@ -1217,14 +1213,11 @@ footer {
         align-items: flex-end;
         font-size: 1rem;
         text-transform: uppercase;
-        height: 35px;
-        //height: 100%;
+        height: 35px; //height: 100%;
         //text-align: center;
-
         @include respond-to (wide-phones) {
             //margin-right: 15px;
-            font-size: 0.8rem;
-            //margin-bottom: 0;
+            font-size: 0.8rem; //margin-bottom: 0;
         }
 
         @include respond-to (phones) {
