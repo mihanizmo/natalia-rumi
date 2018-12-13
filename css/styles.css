@@ -8519,7 +8519,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .b-header {
   min-height: 100%;
-  background: url(../images/rainbow.jpg) no-repeat center;
+  background: url(../../images/rainbow.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -8572,57 +8572,6 @@ html {
   .b-header nav {
     grid-template-rows: 80px 1fr;
     min-height: 210px;
-  }
-}
-
-.b-header .logo {
-  justify-self: start;
-  align-self: center;
-  grid-column: 2/3;
-}
-
-@media (min-width: 1500px) and (max-width: 1634px) {
-  .b-header .logo {
-    grid-column: 2/4;
-    grid-row: 1/2;
-    justify-self: center;
-    align-self: end;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1499px) {
-  .b-header .logo {
-    grid-column: 2/4;
-    grid-row: 1/2;
-    justify-self: center;
-    align-self: end;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .b-header .logo {
-    grid-column: 2/4;
-    grid-row: 1/2;
-    justify-self: center;
-    align-self: end;
-  }
-}
-
-@media (min-width: 480px) and (max-width: 767px) {
-  .b-header .logo {
-    grid-column: 2/4;
-    grid-row: 1/2;
-    justify-self: center;
-    align-self: center;
-  }
-}
-
-@media (max-width: 479px) {
-  .b-header .logo {
-    grid-column: 2/4;
-    grid-row: 1/2;
-    justify-self: center;
-    align-self: center;
   }
 }
 

@@ -2,6 +2,7 @@
 @import "_variables";
 
 @import "blocks/_header";
+@import "blocks/_logo";
 
 html {
     margin: 0;
@@ -63,46 +64,44 @@ html {
         }
     }
 
-    .logo {
-        justify-self: start;
-        align-self: center;
-        grid-column: 2/3;
+//    .logo {
 
-        @include respond-to (lg-desktops) {
-            grid-column: 2/4;
-            grid-row: 1/2;
-            justify-self: center;
-            align-self: end;
-        }
 
-        @include respond-to (small-desktops) {
-            grid-column: 2/4;
-            grid-row: 1/2;
-            justify-self: center;
-            align-self: end;
-        }
-
-        @include respond-to (tablets) {
-            grid-column: 2/4;
-            grid-row: 1/2;
-            justify-self: center;
-            align-self: end;
-        }
-
-        @include respond-to (wide-phones) {
-            grid-column: 2/4;
-            grid-row: 1/2;
-            justify-self: center;
-            align-self: center;
-        }
-
-        @include respond-to (phones) {
-            grid-column: 2/4;
-            grid-row: 1/2;
-            justify-self: center;
-            align-self: center;
-        }
-    }
+//        @include respond-to (lg-desktops) {
+//            grid-column: 2/4;
+//            grid-row: 1/2;
+//            justify-self: center;
+//            align-self: end;
+//        }
+//
+//        @include respond-to (small-desktops) {
+//            grid-column: 2/4;
+//            grid-row: 1/2;
+//            justify-self: center;
+//            align-self: end;
+//        }
+//
+//        @include respond-to (tablets) {
+//            grid-column: 2/4;
+//            grid-row: 1/2;
+//            justify-self: center;
+//            align-self: end;
+//        }
+//
+//        @include respond-to (wide-phones) {
+//            grid-column: 2/4;
+//            grid-row: 1/2;
+//            justify-self: center;
+//            align-self: center;
+//        }
+//
+//        @include respond-to (phones) {
+//            grid-column: 2/4;
+//            grid-row: 1/2;
+//            justify-self: center;
+//            align-self: center;
+//        } }
+    
 
     .logo-photo {
         width: 85px;
