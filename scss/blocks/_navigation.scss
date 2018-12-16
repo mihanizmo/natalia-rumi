@@ -1,0 +1,32 @@
+.b-navigation {
+    font-size: 1.2rem;
+    font-family: $fontText;
+    text-transform: uppercase;
+    list-style-type: none;
+
+    &_default {
+        margin: 0;
+        padding: 0;
+    }
+
+    &_inline {
+        display: inline;
+    }
+
+    &__link {
+        color: black;
+        text-decoration: underline;
+        padding: 0 14px;
+        border-radius: 15px;
+        transition-duration: 0.4s;
+
+        &:hover {
+            background: $colorOne;
+            text-decoration: none;
+            padding: 10px 14px;
+            border-radius: 15px;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
