@@ -22,6 +22,16 @@
         border-radius: 30px;
     }
 
+    &__indicators {
+        justify-content: flex-end;
+        bottom: 30px;
+        margin-right: 21%;
+
+        &_color {
+            background-color: rgba(0, 0, 0, .5) !important;
+        }
+    }
+
     &__img {
         width: 54% !important;
         float: right;
@@ -47,6 +57,20 @@
     &__btn {
         background-color: $colorOne;
         border-color: white;
+
+        &:hover {
+            background-color: $colorTwo;
+            border-color: white;
+        }
+
+        &:active {
+            //background-color: $colorTwo !important;
+            //border-color: white !important;
+        }
+
+        &:focus {
+            //box-shadow: 0 0 0 0.2rem rgb(255, 255, 255);
+        }
     }
 
     &__prev {
@@ -60,13 +84,15 @@
     &__icon {
         width: 40px;
         height: 40px;
-        
+
         &_img-prev {
-            background-image: url(../../images/arrow/arrow-left.png);
+            //            background-image: url(../../images/arrow/arrow-prev.png);
         }
-        
+
         &_img-next {
-            background-image: url(../../images/arrow/arrow-right.png);
+            //            background-image: url(../../images/arrow/arrow-next.png);
         }
     }
+
+
 }
