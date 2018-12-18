@@ -1,0 +1,44 @@
+.b-last-work {
+    &__last-header {
+        width: 1200px;
+        height: 150px;
+
+        &_center {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+        }
+    }
+
+    &__last-name {
+        width: 50%;
+        text-align: center;
+        font-family: $fontText;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        //background: white;
+        border-radius: 15px;
+        border: 2px solid black;
+
+        &_default {
+            margin: 0;
+            padding: 10px;
+        }
+    }
+
+    &_line {
+        height: 2px;
+        width: 25%;
+        background: black;
+
+        &_left {
+            float: left;
+        }
+
+        &_right {
+            float: right;
+        }
+    }
+}
