@@ -1,5 +1,6 @@
 .b-carousel {
     width: 1200px;
+    height: 735px;
 
     &_center {
         display: flex;
@@ -26,10 +27,6 @@
         justify-content: flex-end;
         bottom: 30px;
         margin-right: 21%;
-
-        &_color {
-            background-color: rgba(0, 0, 0, .5) !important;
-        }
     }
 
     &__img {
@@ -64,12 +61,12 @@
         }
 
         &:active {
-            //background-color: $colorTwo !important;
-            //border-color: white !important;
+            background-color: $colorTwo !important;
+            border-color: white !important;
         }
 
         &:focus {
-            //box-shadow: 0 0 0 0.2rem rgb(255, 255, 255);
+            box-shadow: 0 0 0 0.2rem rgb(255, 255, 255);
         }
     }
 
@@ -84,15 +81,5 @@
     &__icon {
         width: 40px;
         height: 40px;
-
-        &_img-prev {
-            //            background-image: url(../../images/arrow/arrow-prev.png);
-        }
-
-        &_img-next {
-            //            background-image: url(../../images/arrow/arrow-next.png);
-        }
     }
-
-
 }

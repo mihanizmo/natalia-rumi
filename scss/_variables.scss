@@ -2,14 +2,17 @@
     font-family: "Lobster_Regular";
     src: url("../fonts/Lobster_Regular.ttf");
 }
+
 @font-face {
     font-family: "Cuphead_Memphis_Regular";
     src: url("../fonts/Cuphead_Memphis_Regular.ttf");
 }
+
 @font-face {
     font-family: "Georgia_Regular";
     src: url("../fonts/Georgia_Regular.ttf");
 }
+
 @font-face {
     font-family: "Test";
     src: url("../fonts/Test.ttf");
@@ -17,15 +20,35 @@
 
 $fontNav: Lobster_Regular,
 serif;
-
 $fontTagline: Cuphead_Memphis_Regular,
 serif;
-
 $fontText: Georgia_Regular,
 serif;
 
 $colorOne: #ff81a4;
 $colorTwo: #ff477b;
+
+// переопределение стилей bootstrap
+.carousel-indicators .active {
+    background-color: $colorOne;
+}
+
+.carousel-indicators li {
+    background-color: black;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../images/arrow/arrow-prev.png);
+}
+
+.carousel-control-next-icon {
+    background-image: url(../images/arrow/arrow-next.png);
+}
+
+
+
+
+
 
 //@mixin respond-to ($_media) {
 //
@@ -65,7 +88,6 @@ $colorTwo: #ff477b;
 //        }
 //    }
 //}
-
 .visible-vpc {
     opacity: 1;
 }

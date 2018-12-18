@@ -8509,6 +8509,22 @@ a.text-dark:hover, a.text-dark:focus {
   src: url("../fonts/Test.ttf");
 }
 
+.carousel-indicators .active {
+  background-color: #ff81a4;
+}
+
+.carousel-indicators li {
+  background-color: black;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(../images/arrow/arrow-prev.png);
+}
+
+.carousel-control-next-icon {
+  background-image: url(../images/arrow/arrow-next.png);
+}
+
 .visible-vpc {
   opacity: 1;
 }
@@ -8525,7 +8541,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .b-header__nav {
   width: 1200px;
-  min-height: 115px;
+  height: 130px;
 }
 
 .b-header__nav_center {
@@ -8553,6 +8569,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .b-carousel {
   width: 1200px;
+  height: 735px;
 }
 
 .b-carousel_center {
@@ -8580,10 +8597,6 @@ a.text-dark:hover, a.text-dark:focus {
   justify-content: flex-end;
   bottom: 30px;
   margin-right: 21%;
-}
-
-.b-carousel__indicators_color {
-  background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
 .b-carousel__img {
@@ -8616,6 +8629,15 @@ a.text-dark:hover, a.text-dark:focus {
 .b-carousel__btn:hover {
   background-color: #ff477b;
   border-color: white;
+}
+
+.b-carousel__btn:active {
+  background-color: #ff477b !important;
+  border-color: white !important;
+}
+
+.b-carousel__btn:focus {
+  box-shadow: 0 0 0 0.2rem white;
 }
 
 .b-carousel__prev {
