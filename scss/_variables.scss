@@ -45,49 +45,7 @@ $colorTwo: #ff477b;
     background-image: url(../images/arrow/arrow-next.png);
 }
 
-
-
-
-
-
-//@mixin respond-to ($_media) {
-//
-//    @if $_media==phones {
-//        @media (max-width: 479px) {
-//            @content;
-//        }
-//    }
-//
-//    @else if $_media==wide-phones {
-//        @media (min-width: 480px) and (max-width: 767px) {
-//            @content;
-//        }
-//    }
-//
-//    @else if $_media==tablets {
-//        @media (min-width: 768px) and (max-width: 991px) {
-//            @content;
-//        }
-//    }
-//
-//    @else if $_media==small-desktops {
-//        @media (min-width: 992px) and (max-width: 1499px) {
-//            @content;
-//        }
-//    }
-//
-//    @else if $_media==lg-desktops {
-//        @media (min-width: 1500px) and (max-width: 1634px) {
-//            @content;
-//        }
-//    }
-//
-//    @else if $_media==xlg-desktops {
-//        @media (min-width: 1635px) {
-//            @content;
-//        }
-//    }
-//}
+// 
 .visible-vpc {
     opacity: 1;
 }
