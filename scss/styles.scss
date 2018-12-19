@@ -15,7 +15,7 @@ html {
 
 .grid {
     display: grid;
-    grid-template-rows: 1000px 1000px 300px;
+    grid-template-rows: 1fr 1fr 1fr;
     margin: 0;
     align-items: center;
 }

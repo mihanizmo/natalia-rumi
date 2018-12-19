@@ -1,11 +1,10 @@
 .b-last-table {
     display: grid;
     width: 1200px;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
     justify-items: center;
-    grid-gap: 50px;
-    //margin: 0 auto;
+    grid-gap: 30px;
+    margin: 0 auto;
 
     &__img-1 {
         grid-column: 1/2;
@@ -40,6 +39,6 @@
     &__img-all {
         width: 380px;
         border-radius: 25px;
-        border: 2px solid black;
+        border: 5px solid white;
     }
 }
