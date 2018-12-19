@@ -8495,22 +8495,12 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 @font-face {
-  font-family: "Cuphead_Memphis_Regular";
-  src: url("../fonts/Cuphead_Memphis_Regular.ttf");
-}
-
-@font-face {
   font-family: "Georgia_Regular";
   src: url("../fonts/Georgia_Regular.ttf");
 }
 
-@font-face {
-  font-family: "Test";
-  src: url("../fonts/Test.ttf");
-}
-
 .carousel-indicators .active {
-  background-color: #ff81a4;
+  background-color: white;
 }
 
 .carousel-indicators li {
@@ -8523,14 +8513,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 .carousel-control-next-icon {
   background-image: url(../images/arrow/arrow-next.png);
-}
-
-.visible-vpc {
-  opacity: 1;
-}
-
-.hidden-vpc {
-  opacity: 0;
 }
 
 .b-header {
@@ -8687,7 +8669,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .b-main {
-  background: url(../../images/pattern/pattern8.png);
+  background: url(../images/pattern/pattern11.png);
   width: 100%;
 }
 
@@ -8710,6 +8692,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: Georgia_Regular, serif;
   letter-spacing: 1px;
   text-transform: uppercase;
+  background: url(../images/pattern/pattern8.png);
   border-radius: 15px;
   border: 2px solid black;
 }
@@ -8774,7 +8757,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .b-last-table__img-all {
   width: 380px;
-  border-radius: 25px;
+  border-radius: 40px;
   border: 5px solid white;
 }
 
@@ -8785,6 +8768,4 @@ html {
 .grid {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  margin: 0;
-  align-items: center;
 }

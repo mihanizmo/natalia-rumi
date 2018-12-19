@@ -3,25 +3,25 @@
     src: url("../fonts/Lobster_Regular.ttf");
 }
 
-@font-face {
-    font-family: "Cuphead_Memphis_Regular";
-    src: url("../fonts/Cuphead_Memphis_Regular.ttf");
-}
+//@font-face {
+//    font-family: "Cuphead_Memphis_Regular";
+//    src: url("../fonts/Cuphead_Memphis_Regular.ttf");
+//}
 
 @font-face {
     font-family: "Georgia_Regular";
     src: url("../fonts/Georgia_Regular.ttf");
 }
 
-@font-face {
-    font-family: "Test";
-    src: url("../fonts/Test.ttf");
-}
+//@font-face {
+//    font-family: "Test";
+//    src: url("../fonts/Test.ttf");
+//}
 
-$fontNav: Lobster_Regular,
+$fontNice: Lobster_Regular,
 serif;
-$fontTagline: Cuphead_Memphis_Regular,
-serif;
+//$fontTagline: Cuphead_Memphis_Regular,
+//serif;
 $fontText: Georgia_Regular,
 serif;
 
@@ -30,7 +30,7 @@ $colorTwo: #ff477b;
 
 // переопределение стилей bootstrap
 .carousel-indicators .active {
-    background-color: $colorOne;
+    background-color: white;
 }
 
 .carousel-indicators li {
@@ -46,10 +46,10 @@ $colorTwo: #ff477b;
 }
 
 // 
-.visible-vpc {
-    opacity: 1;
-}
-
-.hidden-vpc {
-    opacity: 0;
-}
+//.visible-vpc {
+//    opacity: 1;
+//}
+//
+//.hidden-vpc {
+//    opacity: 0;
+//}

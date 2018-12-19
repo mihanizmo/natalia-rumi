@@ -1,10 +1,10 @@
 //$('b-header').addClass('animated fadeIn');
 
-$('.b-logo').addClass('animated bounceInLeft delay-1s');
-
-$('.b-navigation').addClass('animated bounceInRight delay-1s');
-
-$('.carousel-start').addClass('animated bounceIn delay-1s');
+//$('.b-logo').addClass('animated bounceInLeft delay-1s');
+//
+//$('.b-navigation').addClass('animated bounceInRight delay-1s');
+//
+//$('.carousel-start').addClass('animated bounceIn delay-1s');
 
 //$(document).ready(function () {
 //    $('.last-header').addClass("hidden-vpc").viewportChecker({
