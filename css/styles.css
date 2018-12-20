@@ -8495,6 +8495,11 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 @font-face {
+  font-family: "Cuphead_Memphis_Regular";
+  src: url("../fonts/Cuphead_Memphis_Regular.ttf");
+}
+
+@font-face {
   font-family: "Georgia_Regular";
   src: url("../fonts/Georgia_Regular.ttf");
 }
@@ -8516,7 +8521,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .b-header {
-  min-height: 100%;
+  height: 1000px;
   background: url(../images/rainbow.jpg) no-repeat center;
   background-size: cover;
 }
@@ -8555,10 +8560,6 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .b-carousel_center {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
   margin: 0 auto;
 }
 
@@ -8723,6 +8724,7 @@ a.text-dark:hover, a.text-dark:focus {
   justify-items: center;
   grid-gap: 30px;
   margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 .b-last-table__img-1 {
@@ -8759,6 +8761,20 @@ a.text-dark:hover, a.text-dark:focus {
   width: 380px;
   border-radius: 40px;
   border: 5px solid white;
+}
+
+.b-comment {
+  width: 100%;
+  height: 700px;
+  background: url(../images/pattern/pattern4.jpg);
+}
+
+.b-comment_center {
+  margin: 0 auto;
+}
+
+.b-comment__text {
+  font-family: Cuphead_Memphis_Regular, serif;
 }
 
 html {

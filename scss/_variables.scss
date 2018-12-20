@@ -3,10 +3,10 @@
     src: url("../fonts/Lobster_Regular.ttf");
 }
 
-//@font-face {
-//    font-family: "Cuphead_Memphis_Regular";
-//    src: url("../fonts/Cuphead_Memphis_Regular.ttf");
-//}
+@font-face {
+    font-family: "Cuphead_Memphis_Regular";
+    src: url("../fonts/Cuphead_Memphis_Regular.ttf");
+}
 
 @font-face {
     font-family: "Georgia_Regular";
@@ -20,8 +20,8 @@
 
 $fontNice: Lobster_Regular,
 serif;
-//$fontTagline: Cuphead_Memphis_Regular,
-//serif;
+$fontComment: Cuphead_Memphis_Regular,
+serif;
 $fontText: Georgia_Regular,
 serif;
 
