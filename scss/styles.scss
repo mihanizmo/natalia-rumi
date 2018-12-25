@@ -9,6 +9,8 @@
 @import "blocks/_last-work";
 @import "blocks/_last-table";
 @import "blocks/_comment";
+@import "blocks/_offer";
+@import "blocks/_footer";
 
 html {
     margin: 0;
@@ -16,7 +18,7 @@ html {
 
 .grid {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 950px 1fr 100px;
     //margin: 0;
     //align-items: center;
 }

@@ -8521,7 +8521,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .b-header {
-  height: 1000px;
+  height: 950px;
   background: url(../images/rainbow.jpg) no-repeat center;
   background-size: cover;
 }
@@ -8770,11 +8770,27 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .b-comment_center {
-  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .b-comment__text {
   font-family: Cuphead_Memphis_Regular, serif;
+  background: url(../images/pattern/pattern8.png);
+  border-radius: 20px;
+  border: 1px solid black;
+  width: 70%;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+.b-footer {
+  width: 100%;
+  height: 100px;
+  background: url(../images/footer.png);
 }
 
 html {
@@ -8783,5 +8799,5 @@ html {
 
 .grid {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 950px 1fr 100px;
 }
